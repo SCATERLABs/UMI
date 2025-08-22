@@ -1,0 +1,13 @@
+[package]
+name = "Project_UMI"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libp2p = { version = "0.52", features = ["tcp", "yamux", "noise", "mdns", "tokio", "dns", "request-response", "macros"] }
+futures = "0.3"
+# FIX: Add "io-std" and "sync" to the tokio features
+tokio = { version = "1.47", features = ["rt-multi-thread", "macros", "net", "io-std", "sync"] }
+
+libp2p-request-response = "0.25"
+async-trait = "0.1"
