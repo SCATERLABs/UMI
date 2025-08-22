@@ -65,7 +65,7 @@ Get Rust from [rust-lang.org](https://www.rust-lang.org/tools/install).
 
 #### 2️. Clone the Repository
 ```bash
-git clone https://github.com/<>/Project_UMI.git
+git clone https://github.com/SCATERLABs/UMI.git
 cd Project_UMI
 ```
 #### 3. Run the Program:
